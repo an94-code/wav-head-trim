@@ -1,0 +1,49 @@
+﻿{
+    "name": "wav-head-trim",
+    "version": "1.0.0",
+    "description": "Zero-dependency ESM helpers that measure and trim the leading aspiration of synthesised 16-bit PCM WAV speech, and attenuate an over-prominent breath head.",
+    "type": "module",
+    "license": "MIT",
+    "author": "an94",
+    "repository": "git+https://github.com/an94/wav-head-trim.git",
+    "homepage": "https://github.com/an94/wav-head-trim#readme",
+    "bugs": {
+        "url": "https://github.com/an94/wav-head-trim/issues"
+    },
+    "engines": {
+        "node": ">=18"
+    },
+    "main": "./lib/index.js",
+    "exports": {
+        ".": {
+            "import": "./lib/index.js",
+            "default": "./lib/index.js"
+        },
+        "./package.json": "./package.json"
+    },
+    "files": [
+        "lib/",
+        "README.md",
+        "LICENSE"
+    ],
+    "keywords": [
+        "wav",
+        "pcm",
+        "tts",
+        "speech",
+        "audio",
+        "trim",
+        "aspiration",
+        "breath",
+        "head",
+        "dsp",
+        "esm",
+        "zero-dependency"
+    ],
+    "scripts": {
+        "test": "node --test",
+        "compare": "node scripts/compare-with-original.mjs"
+    },
+    "sideEffects": false,
+    "dependencies": {}
+}
