@@ -1,10 +1,10 @@
 ﻿{
     "name": "wav-head-trim",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Zero-dependency ESM helpers that measure and trim the leading aspiration of synthesised 16-bit PCM WAV speech, and attenuate an over-prominent breath head.",
     "type": "module",
     "license": "MIT",
-    "author": "an94",
+    "author": "an94-code",
     "repository": "git+https://github.com/an94-code/wav-head-trim.git",
     "homepage": "https://github.com/an94-code/wav-head-trim#readme",
     "bugs": {

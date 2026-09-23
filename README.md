@@ -6,11 +6,18 @@ aspiration head — over plain `Buffer` / `Uint8Array`, with no I/O of any kind.
 
 ## Install
 
+**Not published to npm** — install straight from GitHub (GitHub first, then pin a tag if you care
+about reproducibility):
+
 ```bash
-npm install wav-head-trim
-# or
-pnpm add wav-head-trim
+dsh plugin --profile <profile> add github:an94-code/wav-head-trim
+# or pin the release tag:
+dsh plugin --profile <profile> add https://codeload.github.com/an94-code/wav-head-trim/tar.gz/refs/tags/v1.0.1
 ```
+
+> `dsh plugin` forwards its arguments to `pnpm` inside the DSH profile directory, so the `github:` /
+> `codeload` forms above are what actually resolve — a bare `pnpm add wav-head-trim` would only work
+> once it is published to npm (it is not).
 
 ## Usage
 
@@ -359,5 +366,4 @@ node scripts/compare-with-original.mjs <语料目录> ...
 
 ## License
 
-MIT —— 见 `LICENSE`。`Copyright (c) 2026 an94`。
-发布到自己的仓库前，把 `package.json` 里的 `an94` / `an94` 占位符换成真实值。
+MIT —— 见 `LICENSE`。`Copyright (c) 2026 an94-code`。

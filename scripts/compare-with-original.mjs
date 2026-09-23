@@ -33,7 +33,7 @@
  *            read, or no WAV was compared at all) — a comparison that never
  *            happened must not be reported as a pass.
  *
- * © 2026 an94 — MIT.
+ * © 2026 an94-code — MIT.
  */
 import { spawn } from 'node:child_process';
 import {
