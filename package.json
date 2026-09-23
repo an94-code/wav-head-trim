@@ -5,10 +5,10 @@
     "type": "module",
     "license": "MIT",
     "author": "an94",
-    "repository": "git+https://github.com/an94/wav-head-trim.git",
-    "homepage": "https://github.com/an94/wav-head-trim#readme",
+    "repository": "git+https://github.com/an94-code/wav-head-trim.git",
+    "homepage": "https://github.com/an94-code/wav-head-trim#readme",
     "bugs": {
-        "url": "https://github.com/an94/wav-head-trim/issues"
+        "url": "https://github.com/an94-code/wav-head-trim/issues"
     },
     "engines": {
         "node": ">=18"
